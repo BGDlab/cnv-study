@@ -11,8 +11,8 @@ CNV exclusion scripts with clean raw CNV data.
 
 | Script | Description |
 | --- | --- |
-| Exclusion_1 | Takes data from CNVision merge format and applies chip quality control and markers criteria (detailed in SFigs. 1-2).|
-| Exclusion_2 | Takes data from Exclusion_1 and applies remaining CNV cleaning criteria (detailed in SFig. 1).|
+| Exclusion_1 | Takes data from CNVision merge format and applies chip quality control and markers criteria (see paper Supplemental Sections S3-4, SFigs. 1-3).|
+| Exclusion_2 | Takes data from Exclusion_1 and applies additional CNV cleaning criteria (see paper Supplemental Sections S3-4, SFigs. 1-3).|
   
 ## 2. CNV Annotations
 
@@ -20,11 +20,11 @@ A list of scripts for implementing different CNV annotations, to be run followin
 
 | Script | Description |
 | --- | --- |
-| Annotation_1 | Annotates CNV for pTS and pHI score, returns subject-level data frame for main figures. |
-| Annotation_2 | Annotates CNV duplications for main Table 2 & 3. |
-| Annotation_3 | Annotates CNV deletions for main Table 2 & 3. |
-| Annotation_4 | Annotates CNV for deletion clusters in Figure 1. |
-| Annotation_5 | Annotates CNV for duplication clusters in Figure 1. |
+| Annotation_1 | Annotates CNV for pTS and pHI score, returns subject-level data frame. |
+| Annotation_2 | Annotates CNV duplications, e.g., for paper Table 1. |
+| Annotation_3 | Annotates CNV deletions, e.g., for paper Table 1. |
+| Annotation_4 | Annotates CNV for deletion clusters as shown in Supplemental SFig.4. |
+| Annotation_5 | Annotates CNV for duplication clusters as shown in Supplemental SFig.4. |
 
 ## Authors
 
