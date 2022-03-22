@@ -1,4 +1,3 @@
-### Code for:
 # Copy Number Variant Risk Scores Associated with Cognition, Psychopathology, and Brain Structure in the Philadelphia Neurodevelopmental Cohort
 
 #### Alexander-Bloch et al., 2022.
